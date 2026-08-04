@@ -1,2 +1,4 @@
 # Python-Practice
-Pyhton Practice Solved Programs
+Python Practice Solved Programs
+<br>
+Step By Step Solved Activities
