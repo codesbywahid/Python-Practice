@@ -1,4 +1,4 @@
 # Python-Practice
 Python Practice Solved Programs
 <br>
-Step By Step Solved Activities
+Step By Step Solved Activities of different concepts
