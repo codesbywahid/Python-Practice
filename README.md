@@ -2,3 +2,73 @@
 Python Practice Solved Programs
 <br>
 Step By Step Solved Activities of different concepts
+
+# Activity 1
+# No1 = int(input("Enter 1st number:"))
+# No2 = int(input("Enter 2nd number:"))
+# sum = No1 + No2
+# print(sum)
+
+# Activity 2
+# formula to calculate sidde is side * side
+# Side = int(input("Enter squre side:"))
+# Side **=2
+# print(Side)
+
+# Activity 3:
+# Num1 = float(input("enter 1st value: "))
+# Num2 = float(input("Enter 2nd value: "))
+# Avg = (Num1 + Num2) / 2
+# print(Avg)
+
+# Activity 4:
+# a= int(input("enter 1st value: "))
+# b= int(input("Enter 2nd value: "))
+# print(a>=b)
+
+# Activity 5 :
+# Q1= input("plz enter your name : ")
+# print(Q1)
+# length= print("length is : ", len(Q1))
+
+# Activity 6 :
+# str="us currency is $"
+# print(str.find("$"))
+# print(str.count("$"))
+
+# Activity 7 :
+# Marks = int(input("enter your marks : "))
+# print(Marks)
+# if (Marks>=90):
+#     print("Grade= A")
+# elif (Marks>=80 and Marks<90):
+#     print("grade = B")
+# elif (Marks>=70 and Marks<80):
+#     print("grade = C")
+# else:
+#     print("do hard work")
+
+# Activity 8 :
+# Num1 = int(input("enter number : "))
+# if (Num1 % 2 == 0):
+#     print ("Number is even")
+# else:
+#     print("Number is odd")
+
+# Activity 9 :
+# a = int(input("Enter 1st number : "))
+# b = int(input("Enter 2nd number : "))
+# c = int(input("Enter 3rd number : "))
+# if (a>=b and a>=c):
+#     print("a is greatest",a)
+# elif (b>=c):
+#     print("b is largest",b)
+# else:
+#     print ("C is largest",c)
+
+# Activity 10 :
+# x= int(input("Enter number : "))
+# if (x %7 ==0):
+#     print("it is multiple of 7")
+# else:
+#     print("it is not multiple")
