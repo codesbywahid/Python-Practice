@@ -72,3 +72,42 @@ Step By Step Solved Activities of different concepts
 #     print("it is multiple of 7")
 # else:
 #     print("it is not multiple")
+
+# Activity 11 :
+# a = int(input("Enter 1st number : "))
+# b = int(input("Enter 2nd number : "))
+# c = int(input("Enter 3rd number : "))
+# d = int(input("Enter 4th number : "))
+# if (a>=b and a>=c and a>=d):
+#     print("a is greatest",a)
+# elif (b>=c and b>=d):
+#     print("b is largest",b)
+# elif(c>=d):
+#     print("C is largest : ",c)
+# else:
+#     print ("d is largest : ",d)
+
+# Activity 12 :
+# a= int(input("Enter first number : "))
+# b= int(input("Enter second number : "))
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a%b)
+# print(a**b)
+
+# Activity 13 :
+# a= int(input("Enter first number : "))
+# print(a*a)
+# print(a*4)
+
+# Activity 14:
+# a=int(input("enter 1st number: "))
+# b=int(input("enter 2nd number: "))
+# if(a==b):
+#     print("Both are equal")
+# elif(a>b):
+#     print("A is greater than b")
+# else:
+#     print("b is greater")
