@@ -172,3 +172,39 @@ Step By Step Solved Activities of different concepts
 # Activity 20 :
 # a = "Abdul Wahid"
 # print("your name contains" , len(a) , "characters")
+
+# Activity 21 :
+# a="Comsats"
+# print(a[0])
+# print(a[4])
+# print(a[6])
+
+# Activity 22 :
+# a="Abdul Wahid"
+# print(a[:3],a[8:])
+
+# Activity 23 :
+# a="islamabad is capital of Pakistan"
+# b=a.capitalize()
+# print(b)
+# b=a.find("Pakistan")
+# print(b)
+# b=a.count("a")
+# print(b)
+# b=a.replace("islamabad","Karachi")
+# print(b)
+
+# Activity 24 :
+# mail="aw3949@gmail.com"
+# print(mail.endswith(".com"))
+
+# Activity 25 :
+# a=input("enter word ")
+# b=input("enter other word ")
+# length1 = len(a)
+# length2 = len(b)
+# if (length1 > length2):
+#     print ("a is longer ")
+# else:
+#     print("b is long")
+
