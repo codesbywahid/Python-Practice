@@ -111,3 +111,64 @@ Step By Step Solved Activities of different concepts
 #     print("A is greater than b")
 # else:
 #     print("b is greater")
+
+# Activity 15:
+# a= int(input("enter your marks : "))
+# if(a>40):
+#     print("marks are greater than 40")
+# else:
+#     print("MArks are less")
+
+# Activity 15:
+# a=20
+# a+=10
+# print(a)
+# a-=5
+# print(a)
+# a*=2
+# print(a)
+# a/=5
+# print(a)
+# a%=3
+# print(a)
+
+# Activity 16:
+# a=int(input("enter 1st number : "))
+# b=int(input("enter 2nd number : "))
+# if (a>0 or b>0):
+#     print(" one of them is positive" )
+# else:
+#     print("Both are negative")
+
+# Activity 17 :
+# a= "25"
+# a=int("25")
+# print(a*4)
+
+# Activity 18:
+# a = input("plz enter your age : ")
+# a=int(a)
+# a+=5
+# print(a)
+
+# # Activity 18:
+# Name = input("Enter your name ")
+# Age= int(input("Enter your age "))
+# City= input("Enter your City ")
+# print("My name is ", Name)
+# print("I am ",Age , " years old")
+# print("I live in",City)
+
+# Activity 19 :
+# N1 = input("Enter First name ")
+# N2 = input("Enter Second name ")
+# print(N1 + ' ' + N2)
+
+# Activity 20 :
+# a = input("Enter your Sentence ")
+# length = len(a) 
+# print(length)
+
+# Activity 20 :
+# a = "Abdul Wahid"
+# print("your name contains" , len(a) , "characters")
