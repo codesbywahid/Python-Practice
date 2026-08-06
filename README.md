@@ -208,3 +208,29 @@ Step By Step Solved Activities of different concepts
 # else:
 #     print("b is long")
 
+# Activity 26 :
+# a= input("enter password ")
+# b=len(a)
+# if (b<8):
+#     print("weak passowrd")
+# else:
+#     print("strong password")
+
+# Activity 27 :
+# a = input("Enter file name")
+# b= a.endswith(".pdf")
+# if(b==True):
+#     print("File is correct")
+# else:
+#     print("file is corrupt")
+
+# Activity 28 :
+# a=input("enter email addresss : ")
+# b=len(a)
+# print(b)
+# c=a.endswith(".com")
+# print(c)
+# if (b>=10 and c):
+#     print("Valid Email")
+# else:
+#     print("Invalid Email")
