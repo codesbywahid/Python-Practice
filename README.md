@@ -268,3 +268,25 @@ Step By Step Solved Activities of different concepts
 # Marks=[56,89,34,90]
 # Marks.append(75)
 # print(Marks)
+
+# Activity 33 :
+# Marks = [67, 45, 98, 23, 89]
+# Marks.sort()
+# print(Marks)
+# Marks.sort(reverse=True)
+# print(Marks)
+
+# Activity 34 :
+# Numbers = [10, 20, 40, 50]
+# Numbers.insert(2,30)
+# print(Numbers)
+
+# Activity 35 :
+# Colors = ["Red", "Blue", "Green", "Black"]
+# Colors.remove("Green")
+# print(Colors)
+
+# Activity 36 :
+# Student = ["Abdul", 20, 89.5, "Computer Science"]
+# Student[3]="Software Engineering"
+# print(Student)
