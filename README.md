@@ -290,3 +290,22 @@ Step By Step Solved Activities of different concepts
 # Student = ["Abdul", 20, 89.5, "Computer Science"]
 # Student[3]="Software Engineering"
 # print(Student)
+
+# Activity 37 :
+# tup = (1, 2, 1, 4, 5, 1, 7)
+# print(tup.count(1))
+
+# Activity 38 :
+# tup = (10, 20, 30, 40, 50)
+# print(tup.index(40))
+
+# Activity 39 :
+# sub=("Maths","Urdu","English","Islamiat")
+# print(sub[3])
+
+# Activity 40 :
+# Grades = ["C", "D", "A", "A", "B", "B", "A"]
+# count=Grades.count("A")
+# print(count)
+# Grades.sort()
+# print(Grades)
