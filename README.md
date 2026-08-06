@@ -234,3 +234,37 @@ Step By Step Solved Activities of different concepts
 #     print("Valid Email")
 # else:
 #     print("Invalid Email")
+
+# Activity 29 :
+# Movie1=input("Enter 1 movie Name : ")
+# Movie2=input("Enter 2 movie Name : ")
+# Movie3=input("Enter 3 movie Name : ")
+# lis = [Movie1,Movie2,Movie3]
+# print(lis)
+
+# Activity 30 :
+# Pali = [1,2,3,2,1]
+# Pai=Pali.copy()
+# Pai.reverse()
+# if(Pali == Pai):
+#     print("It is palindrome")
+# else:
+#     print("Not palindrome")
+
+# Activity 30 :
+# Grade = ["C","D","A","A","B","B","A"]
+# print(Grade.count("A"))
+# Grade.sort()
+# print(Grade)
+
+# Activity 31 :
+# Fruits=["Mango","Apple","Banana","Strawberry"]
+# print(Fruits)
+# print(Fruits[0:3])
+# Fruits[1]=("Melon")
+# print(Fruits)
+
+# # Activity 32 :
+# Marks=[56,89,34,90]
+# Marks.append(75)
+# print(Marks)
