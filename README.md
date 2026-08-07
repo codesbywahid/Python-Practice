@@ -309,4 +309,39 @@ print(count)
 Grades.sort()
 print(Grades)
 
+# Activity 41 :
+ Movie1=input("Enter 1st Movie : ")
+ Movie2=input("Enter 2nd Movie : ")
+ Movie3=input("Enter 3rd Movie : ")
+ Movies = [Movie1,Movie2,Movie3]
+ print(Movies)
+ Movies.sort()
+ print(Movies)
+ Movies.sort(reverse=True)
+ print(Movies)
+ Movies.remove(Movie2)
+ print(Movies)
+ Movies.insert(1,"Spiderman")
+ print(Movies)
+
+# Activity 41 :
+ list1 = [1, 2, 3, 2, 1]
+ list2 = list1
+ list2.reverse()
+ if(list2==list1):
+     print("It is palindrome")
+ else:
+    print("No")
+
+# Activity 42 :
+Random ={
+     "table" : ["a piece of furniture", "list of facts and figures"],
+     "cat" : "a small animal"
+ }
+ print(Random)
+
+# Activity 43 :
+ Class={"python","java","C++","python","Javascript","java","python","java","C++","C"}
+print(Class)
+
 ```
