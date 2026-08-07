@@ -344,4 +344,39 @@ Random ={
  Class={"python","java","C++","python","Javascript","java","python","java","C++","C"}
 print(Class)
 
+# Activity 44 :
+ Marks={}
+ Chemistry = input("Enter chemistry marks ")
+ Physics = input("enter physics marks ")
+ DataBase = input("enter DB marks ")
+ Marks.update({"Chemistry": Chemistry})
+ Marks.update({"Physics" : Physics})
+ Marks.update({"DataBase" : DataBase })
+ print(Marks)
+
+# Activity 45 :
+ num = set()
+ num1= int(input("Enter 1st value "))
+ num2= input("Enter 2nd value ")
+ num.add(num1)
+ num.add(num2)
+ print(num)
+
+# Activity 46 :
+ Num1 = int(input("Enter 1st Number "))
+ Num2 = int(input("Enter 2nd Number "))
+ print(Num1+Num2)
+ print(Num1*Num2)
+ print(Num1/Num2)
+ if (Num1 > Num2):
+     print("Number 1 is greater")
+ else:
+     print("Number 2 is greater")
+
+# Activity 47 :
+ Sentence= input("Enter your sentence")
+ print(len(Sentence))
+ print(Sentence.endswith("."))
+ print(Sentence.count("a"))
+ 
 ```
