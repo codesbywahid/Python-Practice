@@ -379,4 +379,40 @@ print(Class)
  print(Sentence.endswith("."))
  print(Sentence.count("a"))
  
+ # Activity 48 :
+ Movie1= input("Enter 1st movie ")
+ Movie2= input("Enter 2nd movie ")
+ Movie3= input("Enter 3rd movie ")
+ Movie=[Movie1,Movie2,Movie3]
+ print(Movie)
+ Movie.sort()
+ print(Movie)
+ Movie.sort(reverse=True)
+ print(Movie)
+ Movie.remove(Movie2)
+ print(Movie)
+ Movie.insert(1,"SpiderMan")
+ print(Movie)
+
+# Activity 49 :
+ tup = (1, 2, 3, 4, 1, 5, 1)
+ print(tup.count(1))
+ print(tup[4])
+
+# Activity 50 :
+ Create = {
+     "Name" : "Umar",
+     "Age" : 20,
+     "Semester" : "3rd",
+     }
+ print(Create)
+ Create.update({"City" : "Attock"})
+ print(Create)
+ Create.update({"Age" : 29})
+ print(Create)
+ print(Create.keys())
+ print(Create.values())
+ print(Create.items())
+ print(len(Create))
+
 ```
