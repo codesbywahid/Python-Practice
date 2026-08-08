@@ -427,5 +427,15 @@ print(Class)
  print(Student)
  print(Student["Subjects"] ["Calculus"])
 
- 
+ # Activity 52 :
+set1 = {1,2,3,4,5}
+set2 = {3,4,5,6,7}
+print(set1.union(set2))
+print(set2.intersection(set2))
+set1.add(8)
+print(set1)
+set2.remove(7)
+print(set2)
+
+
 ```
