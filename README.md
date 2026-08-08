@@ -459,4 +459,14 @@ n=int(input("Enter a number : "))
  for x in range(1,11):
     print(n*x)
 
+# Activity 56 :
+x = int(input("Enter a number: "))
+i = 1
+total = 0
+while i <= x:
+     total = total + i
+     i += 1
+print("Sum =", total)
+
+
 ```
