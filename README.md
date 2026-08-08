@@ -450,4 +450,13 @@ dic.update({"Email" : Email})
 dic.update({"Length" : length })
 print(dic)
 
+# Activty 54 :
+for x in range(100,0,-1):
+     print(x)
+
+# Activity 55 :
+n=int(input("Enter a number : "))
+ for x in range(1,11):
+    print(n*x)
+
 ```
