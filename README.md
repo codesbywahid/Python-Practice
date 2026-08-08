@@ -437,5 +437,17 @@ print(set1)
 set2.remove(7)
 print(set2)
 
+# Activity 53 :
+Email = input("Enter your Email : ")
+end= Email.endswith(".com")
+length = len(Email)
+if(len(Email) > 10 and end):
+     print("Valid Email")
+else:
+    print("Invalid Email")
+dic={}
+dic.update({"Email" : Email})
+dic.update({"Length" : length })
+print(dic)
 
 ```
