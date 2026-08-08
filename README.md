@@ -415,4 +415,17 @@ print(Class)
  print(Create.items())
  print(len(Create))
 
+# Activity 51 :
+ Student = {
+    "Name": "Random",
+     "Subjects": {
+         "DB": 32,
+         "CN": 23,
+         "Calculus": 45
+    }
+ }
+ print(Student)
+ print(Student["Subjects"] ["Calculus"])
+
+ 
 ```
