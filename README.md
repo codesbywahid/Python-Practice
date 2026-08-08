@@ -482,5 +482,11 @@ for i in range (1,n+1):
      fact*=i
 print("Factotial is ", fact)
 
+# Activity 59 :
+ while True:
+     x=int(input("Enter number : "))
+     if(x==0):
+         print("Program Ended")
+         break
 
 ```
