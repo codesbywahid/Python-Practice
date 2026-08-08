@@ -475,5 +475,12 @@ for i in range(0,n+1):
     sum+=i
 print("Sum is : ",sum)
 
+# Activity 58 : 
+n = int(input("Enter a number : "))
+fact = 1
+for i in range (1,n+1):
+     fact*=i
+print("Factotial is ", fact)
+
 
 ```
