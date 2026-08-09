@@ -497,4 +497,16 @@ while x <= 20:
          print(x)
      x = x + 1
 
+# Activity 61 :
+x=int(input("Enter 1st number : "))
+y=int(input("Enter 2nd Number : "))
+print(x+y)
+print(x-y)
+print(x*y)
+print(x%y)
+if (x>y):
+     print("1st is greater ")
+else:
+     print("2nd is greater")
+
 ```
