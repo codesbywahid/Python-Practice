@@ -509,4 +509,19 @@ if (x>y):
 else:
      print("2nd is greater")
 
+# Activity 62 :
+Name = input("Enter a name : ")
+print(len(Name))
+print(Name.capitalize())
+x=Name.endswith("n")
+print(x)
+print(Name[2:6])
+
+# Activity 63 :
+x=input("Enter 1st number : ")
+y=input("Enter 2nd number : ")
+x=int(x)
+y=int(y)
+print(x*y)
+
 ```
