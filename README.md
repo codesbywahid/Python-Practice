@@ -547,4 +547,27 @@ print(L)
 L.sort()
 print(L)
 
+# Activity 66:
+Dict= {
+     "Name" : "Wahid",
+     "Age"  : 21,
+     "Semester" : 3,
+     "City" : "Attock"
+ }
+Dict.update({"City" : "Lahore"})
+print(Dict)
+Dict.update({"Grade" : "A"})
+print(Dict)
+print(Dict.keys())
+print(Dict.values())
+
+# Activity 67 :
+T=(3, 7, 3, 9, 3, 1, 7)
+print(T.count(3))
+print(T[5])
+set1={1,2,3,4,5}
+set2={3,4,5,6,7}
+print(set1.union(set2))
+print(set1.intersection(set2))
+
 ```
