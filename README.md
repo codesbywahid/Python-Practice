@@ -524,4 +524,27 @@ x=int(x)
 y=int(y)
 print(x*y)
 
+# Activity 64 :
+x= int(input("Enter marks : "))
+if (x>=90 and x<=100):
+    print("A grade")
+elif(x>=80 and x<=90):
+    print("B grade")
+elif(x>=70 and x<=80):
+    print("C grade ")
+elif(x<70):
+    print("D grade.")
+
+# Activity 65 :
+L=[9,78,94,25,45]
+print(L)
+L.append(99)
+print(L)
+L.insert(2,50)
+print(L)
+L.pop(1)
+print(L)
+L.sort()
+print(L)
+
 ```
