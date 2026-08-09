@@ -570,4 +570,30 @@ set2={3,4,5,6,7}
 print(set1.union(set2))
 print(set1.intersection(set2))
 
+# Activity 68 :
+Stud = [45,55,65,75,85]
+Sum = 0
+for stu in Stud:
+     print(stu)
+     Sum+=stu
+print(Sum)
+L = len(Stud)
+print("Number of students marks : ",L)
+Average = Sum/ L
+print(Average)
+
+# Activity 69 :
+Sent = input("Enter a Sentence: ")
+idx = 0
+while idx < len(Sent):
+     if Sent[idx] == " ":
+         idx += 1
+         continue
+    if Sent[idx] == "z":
+         print("Letter z found")
+         break
+     print(Sent[idx])
+     idx += 1
+
+     
 ```
