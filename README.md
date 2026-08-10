@@ -621,3 +621,15 @@ avg=sum/3
 print(avg)
 return(avg)
 calc_avg(2,3,4)
+
+# Activity 72 :
+numbs = [1,2,3,4,5,6,]
+def print_len(list):
+    print(len(list))
+print_len(numbs)
+
+
+
+
+
+```
