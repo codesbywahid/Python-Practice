@@ -645,4 +645,13 @@ py()
      print(a*a)
 sq(5)
 
+# Activity 76 :
+a=int(input("Enter a number : "))
+def cat(a):
+    if(a%2 ==0):
+    print("Even")
+    else:
+        print("odd")
+cat(a)
+
 ```
