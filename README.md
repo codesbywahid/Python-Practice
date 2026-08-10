@@ -654,4 +654,16 @@ def cat(a):
         print("odd")
 cat(a)
 
+# Activity 77 :
+x = int(input("Enter x : "))
+y = int(input("Enter y :"))
+def large(x,y):
+    if (x > y):
+    print("X is greater")
+    else:
+    print("Y is greater")
+large(x,y)
+
+
+
 ```
