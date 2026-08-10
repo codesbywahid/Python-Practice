@@ -595,5 +595,24 @@ while idx < len(Sent):
      print(Sent[idx])
      idx += 1
 
+#Activity 70 :
+Dict = [
+    {"Name": "Ali", "Marks": 32, "Subject": "Physics"},
+    {"Name": "Ibrahim", "Marks": 54, "Subject": "Chemistry"},
+    {"Name": "Moosa", "Marks": 80, "Subject": "Biology"},
+    {"Name": "Daniyal", "Marks": 60, "Subject": "Maths"},
+]
+top_performers = []
+for student in Dict:
+    print(student["Name"], "-", student["Subject"])
+    if student["Marks"] >= 80:
+        print("Excellent")
+        top_performers.append(student["Name"])
+    elif student["Marks"] >= 50:
+        print("Passed")
+    else:
+        print("Failed")
+print("Top Performers:", top_performers)
+
      
 ```
