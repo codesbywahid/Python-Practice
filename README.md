@@ -628,7 +628,12 @@ def print_len(list):
     print(len(list))
 print_len(numbs)
 
-
+# Activity 73 :
+Elements = ["a", "b", "c", "d", "e"]
+def print_len(list):
+    for item in list:
+         print(item,end=" ")
+print_len(Elements)
 
 
 
