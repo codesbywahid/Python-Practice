@@ -635,6 +635,14 @@ def print_len(list):
          print(item,end=" ")
 print_len(Elements)
 
+# Activity 74 :
+def py():
+    print("Hello . Wellcome to pyhton")
+py()
 
+# Activity 75 :
+ def sq(a):
+     print(a*a)
+sq(5)
 
 ```
