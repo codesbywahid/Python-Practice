@@ -748,5 +748,44 @@ while True:
        print("Exiting")
        break
 
-       
+# Activity 81 :
+St1 = input("Enter Student Name : ")
+Sub1 = int(input("Enter 1st subject marks : "))
+if (Sub1 <0 or Sub1>100):
+    print("Invalud marks")
+Sub2 = int(input("Enter 2nd subject marks : "))
+if (Sub2 <0 or Sub2>100):
+    print("Invalud marks")
+Sub3 = int(input("Enter 3rd subject marks : "))
+if (Sub3 <0 or Sub3>100):
+    print("Invalud marks")
+Sub4 = int(input("Enter 4th subject marks : "))
+if (Sub4 <0 or Sub4>100):
+    print("Invalud marks")
+Sub5 = int(input("Enter 5th subject marks : "))
+if (Sub5 <0 or Sub5>100):
+    print("Invalud marks")
+Subjects = {
+    "Name" : St1,
+    "Subject 1": Sub1,
+    "Subject 2": Sub2,
+    "Subject 3": Sub3,
+    "Subject 4": Sub4,
+    "Subject 5": Sub5
+}
+print(Subjects)
+Total = Sub1 + Sub2+ Sub3+Sub4 +Sub5
+print("Total Marks are : ", Total) 
+Percentage = Total /500 *100
+print("Percentage is ",Percentage )
+if (Percentage >= 90):
+    print("A grade")
+elif(Percentage>=80 and Percentage <90 ):
+    print("B Grade")
+elif(Percentage>=70 and Percentage<80):
+    print("C Grade")
+else:
+    print("D grade") 
+
+     
 ```
