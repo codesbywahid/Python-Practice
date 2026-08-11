@@ -665,5 +665,15 @@ def large(x,y):
 large(x,y)
 
 
+# Activity 78 :
+Marks = [45, 55, 65, 75]
+def add(numbers):
+     total = 0
+    for num in numbers:
+         total += num
+     return total
+result = add(Marks)
+print("Sum =", result)
+
 
 ```
