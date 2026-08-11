@@ -675,5 +675,15 @@ def add(numbers):
 result = add(Marks)
 print("Sum =", result)
 
+# Activity 79 :
+Marks = [5,6,7,8,9,10]
+def t(numbers):
+     total = 0
+     for num in numbers:
+         total += num
+     Average = total / len(numbers)
+     return total, Average
+print(t(Marks))
+
 
 ```
