@@ -787,5 +787,29 @@ elif(Percentage>=70 and Percentage<80):
 else:
     print("D grade") 
 
-     
+# Activity 82:
+Name = input("Enter Username: ")
+Pass = input("Enter Password: ")
+
+if len(Name) >= 5 and " " not in Name:
+    print("Username Entered")
+else:
+    print("Enter Again")
+    exit()
+
+if len(Pass) >= 8 and ("@" in Pass or "#" in Pass):
+    print("Password Entered")
+else:
+    print("Enter Password Again")
+    exit()
+
+Info = {
+    "UserName": Name,
+    "Password": Pass
+}
+
+print(Info)     
+
+
+
 ```
