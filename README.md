@@ -854,4 +854,14 @@ print(min(Num))
 print(sum(Num)) 
 print(sum(Num)/len(Num))
 
+# Activity 85 :
+Stud1 = {"Maths", "Physics" ,"Urdu", "English","Maths"}
+Stud1.add("Islamiat")
+Stud2={"Bio","Chem","Maths","Urdu","DB"}
+print(Stud1.intersection(Stud2))
+print(Stud1)
+print(Stud1-Stud2)
+
+
+
 ```
