@@ -835,4 +835,23 @@ Price4 = int(input("Enter product price: "))
 info[NewProd] = Price4
 print("Final Products:", info)
 
+# Activity 84 :
+Num = [] 
+n1 = int(input("Enter 1st number: ")) 
+n2 = int(input("Enter 2nd number: ")) 
+n3 = int(input("Enter 3rd number: ")) 
+n4 = int(input("Enter 4th number: ")) 
+n5 = int(input("Enter 5th number: ")) 
+n6 = int(input("Enter 6th number: ")) 
+n7 = int(input("Enter 7th number: ")) 
+n8 = int(input("Enter 8th number: ")) 
+Num = [n1, n2, n3, n4, n5, n6, n7, n8] 
+print(Num) 
+unique=set(Num) 
+print(unique) 
+print(max(Num)) 
+print(min(Num)) 
+print(sum(Num)) 
+print(sum(Num)/len(Num))
+
 ```
