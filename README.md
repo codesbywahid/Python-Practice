@@ -810,6 +810,29 @@ Info = {
 
 print(Info)     
 
-
+# Activity 83 :
+Prod1 = input("Enter Product Name: ")
+Price1 = int(input("Enter Product Price: "))
+Prod2 = input("Enter Product Name: ")
+Price2 = int(input("Enter Product Price: "))
+Prod3 = input("Enter Product Name: ")
+Price3 = int(input("Enter Product Price: "))
+info = {
+    Prod1: Price1,
+    Prod2: Price2,
+    Prod3: Price3
+}
+print("Products:", info)
+Waste = input("Enter product to remove: ")
+if Waste in info:
+    info.pop(Waste)
+    print("Product removed.")
+else:
+    print("Product not found.")
+print("After removing:", info)
+NewProd = input("Enter new Product name: ")
+Price4 = int(input("Enter product price: "))
+info[NewProd] = Price4
+print("Final Products:", info)
 
 ```
