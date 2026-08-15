@@ -904,4 +904,38 @@ if user in employees:
 else:
     print("Employee doesnt exist")
 
+# Activity 88 :
+Ali = (23,34,78,56,90,56)
+Umar =(45,67,87,65,43,24)
+Sum1 = sum(Ali)
+print(Sum1) 
+Sum2=sum(Umar)
+print(Sum2)
+Avg1 =Sum1/len(Ali)
+print(Avg1)
+Avg2 = Sum2/len(Umar)
+print(Avg2)
+if (Sum1 > Sum2):
+  print("Ali has highest marks")
+else:
+    print("Umar has highest marks")
+print(Ali.count(90))
+print(Umar.count(43))# Activity 88 :
+Ali = (23,34,78,56,90,56)
+Umar =(45,67,87,65,43,24)
+Sum1 = sum(Ali)
+print(Sum1) 
+Sum2=sum(Umar)
+print(Sum2)
+Avg1 =Sum1/len(Ali)
+print(Avg1)
+Avg2 = Sum2/len(Umar)
+print(Avg2)
+if (Sum1 > Sum2):
+  print("Ali has highest marks")
+else:
+    print("Umar has highest marks")
+print(Ali.count(90))
+print(Umar.count(43))
+
 ```
