@@ -862,6 +862,24 @@ print(Stud1.intersection(Stud2))
 print(Stud1)
 print(Stud1-Stud2)
 
-
+# Activity 86 :
+Line = input("Enter a sentence : ")
+print(len(Line))
+words=Line.split()
+print(len(words))
+print(Line.count("a"))
+print(Line.upper())
+print(Line[0])
+print(Line[-1])
+print(Line[::-1])# Activity 86 :
+Line = input("Enter a sentence : ")
+print(len(Line))
+words=Line.split()
+print(len(words))
+print(Line.count("a"))
+print(Line.upper())
+print(Line[0])
+print(Line[-1])
+print(Line[::-1])
 
 ```
