@@ -882,4 +882,26 @@ print(Line[0])
 print(Line[-1])
 print(Line[::-1])
 
+# Activity 87 :
+employees = {
+     "Ali": {"age": 22, "salary": 50000},
+     "Ahmed": {"age": 25, "salary": 65000},
+     "Usman": {"age": 21, "salary": 45000}
+}
+user = input("Enter Employee name : ")
+if user in employees:
+    print("Employee info is ",employees[user])
+else:
+    print("Employee doesnt exist")# Activity 87 :
+employees = {
+     "Ali": {"age": 22, "salary": 50000},
+     "Ahmed": {"age": 25, "salary": 65000},
+     "Usman": {"age": 21, "salary": 45000}
+}
+user = input("Enter Employee name : ")
+if user in employees:
+    print("Employee info is ",employees[user])
+else:
+    print("Employee doesnt exist")
+
 ```
