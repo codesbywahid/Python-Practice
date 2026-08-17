@@ -938,4 +938,29 @@ else:
 print(Ali.count(90))
 print(Umar.count(43))
 
+# Activity 89 :
+def q():
+    n=int (input("Enter a number :"))
+    if n%2==0:
+        print("Number is even")
+    else:
+        print("num is odd")  
+q()
+
+# Activity 90 :
+def add(n):
+    if n == 0:
+       return 0
+    else:
+        return n + add(n-1)
+sum =add(5)
+print(sum)# Activity 90 :
+def add(n):
+    if n == 0:
+       return 0
+    else:
+        return n + add(n-1)
+sum =add(5)
+print(sum)
+
 ```
