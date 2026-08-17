@@ -963,4 +963,25 @@ def add(n):
 sum =add(5)
 print(sum)
 
+# Activity 91 :
+L=["Ironman","Superman","Batman","Joker"]
+def elements(list, idx=0):
+    if (idx == len(list)):
+        return
+    else:
+        print(list[idx])    
+        elements(list,idx+1)  
+Heroes = elements(L)
+print(Heroes)# Activity 91 :
+L=["Ironman","Superman","Batman","Joker"]
+def elements(list, idx=0):
+    if (idx == len(list)):
+        return
+    else:
+        print(list[idx])    
+        elements(list,idx+1)  
+Heroes = elements(L)
+print(Heroes)
+
+
 ```
