@@ -972,16 +972,14 @@ def elements(list, idx=0):
         print(list[idx])    
         elements(list,idx+1)  
 Heroes = elements(L)
-print(Heroes)# Activity 91 :
-L=["Ironman","Superman","Batman","Joker"]
-def elements(list, idx=0):
-    if (idx == len(list)):
-        return
-    else:
-        print(list[idx])    
-        elements(list,idx+1)  
-Heroes = elements(L)
 print(Heroes)
 
-
+# Activity 92:
+def is_prime(a):
+    for i in range(2,a):
+        if a%i==0:
+            print("Not a prime number")
+            return
+    print("Prime number")
+p=is_prime(5)
 ```
