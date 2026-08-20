@@ -982,4 +982,23 @@ def is_prime(a):
             return
     print("Prime number")
 p=is_prime(5)
+
+# Activity 93 :
+f = open("sample.txt","w")
+f.write("Hi everyone")
+f.write("\nwe are learning file I/O")
+f.write("\nusing Java")
+f.write("\nI like programming in Java")
+
+# Activity 94 :
+f = open("sample.txt","r")
+data = f.read()
+new_data=data.replace("Java","Python")
+print(new_data)
+f = open("sample.txt","w")
+f.write(new_data)
+
+
+
+
 ```
