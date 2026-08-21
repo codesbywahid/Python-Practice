@@ -998,6 +998,13 @@ print(new_data)
 f = open("sample.txt","w")
 f.write(new_data)
 
+# Activity 95 :
+f = open("sample.txt","r")
+data = f.read()
+if(data.find("learning") != -1):
+    print("Word Exist")
+else:
+    print("Not exist")
 
 
 
